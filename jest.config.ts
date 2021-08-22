@@ -1,6 +1,6 @@
 module.exports = {
-  preset: 'ts-jest',
-  testEnvironment: 'node',
+  preset: "ts-jest",
+  testEnvironment: "node",
   coverageThreshold: {
     global: {
       statements: 95,
@@ -9,7 +9,5 @@ module.exports = {
       lines: 95,
     },
   },
-  setupFilesAfterEnv: [
-    './jest.setup.js',
-  ],
+  setupFilesAfterEnv: ["./jest.setup.ts"],
 };
