@@ -19,6 +19,9 @@ module.exports = {
     "import/prefer-default-export": "off",
     "no-useless-constructor": "off",
     "import/no-extraneous-dependencies": ["error", { devDependencies: true }],
+    "no-unused-vars": "off",
+    "@typescript-eslint/no-unused-vars": ["error"],
+    "no-empty-function": ["error", { allow: ["constructors"] }],
   },
   settings: {
     "import/resolver": {
